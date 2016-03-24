@@ -1,0 +1,25 @@
+{
+    "name": "chenkby/yii2-swiper",
+    "description": "The swiper widget for the Yii framework",
+    "keywords": [
+        "yii2",
+        "swiper"
+    ],
+    "type": "yii2-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ChenGuanQun",
+            "email": "99912250@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+	"bower-asset/swiper"
+    },
+    "autoload": {
+        "psr-4": {
+            "chenkby\\swiper\\": ""
+        }
+    }
+}
