@@ -7,6 +7,10 @@ use yii\web\View;
  * swiper widget
  * @see also http://idangero.us/swiper
  * <?=\chenkby\swiper\Swiper::widget([
+ *      'items'=>[
+ *          Html::img('http://img-src'),
+ *          Html::img('http://img-src'),
+ *      ],
  *      'jquery'=>false,
  *      'clientOptions'=>[
  *          'loop'=>true,
