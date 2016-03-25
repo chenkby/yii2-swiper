@@ -1,5 +1,6 @@
 # yii2-swiper
-The swiper widget for the Yii framework
+The swiper slider widget for the Yii framework.
+See more here: http://idangero.us/swiper
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
