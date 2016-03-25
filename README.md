@@ -19,6 +19,11 @@ or add
 to the `require` section of your `composer.json` file.
 ## Usage
 echo \chenkby\swiper\Swiper::widget([
+    'items'=>[
+        Html::img('http://p2.wmpic.me/article/2016/03/07/1457340934_IhOzsopM.jpg'),
+        Html::img('http://p3.wmpic.me/article/2016/03/07/1457340935_xESOHFOa.jpg'),
+        Html::img('http://p3.wmpic.me/article/2016/03/07/1457340935_VoZtYoSk.jpg')
+    ],
     'clientOptions'=>[
         'loop'=>true,
     ]
