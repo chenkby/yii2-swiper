@@ -17,3 +17,9 @@ or add
 ```
 
 to the `require` section of your `composer.json` file.
+## Usage
+echo \chenkby\swiper\Swiper::widget([
+    'clientOptions'=>[
+        'loop'=>true,
+    ]
+]);
