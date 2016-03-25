@@ -15,6 +15,8 @@ use yii\web\View;
  */
 class Swiper extends Widget
 {
+    public $items=[];
+
     /**
      * @var bool jquery
      */
@@ -49,6 +51,7 @@ class Swiper extends Widget
     public function init()
     {
         parent::init();
+        if(empty($this->items))return null;
         if(!isset($this->options['class'])){
             $this->options['class']='swiper-container';
         }
@@ -81,6 +84,7 @@ class Swiper extends Widget
 
     public function run()
     {
+        if(empty($this->items))return null;
         return $this->render('swiper');
     }
 

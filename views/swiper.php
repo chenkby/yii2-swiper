@@ -3,13 +3,10 @@ use yii\helpers\Html;
 $context=$this->context;
 ?>
 <?=Html::beginTag('div',$context->options)?>
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="http://p2.wmpic.me/article/2016/03/07/1457340934_IhOzsopM.jpg"></div>
-        <div class="swiper-slide"><img src="http://p3.wmpic.me/article/2016/03/07/1457340935_xESOHFOa.jpg"></div>
-        <div class="swiper-slide"><img src="http://p3.wmpic.me/article/2016/03/07/1457340935_VoZtYoSk.jpg"></div>
-        ...
+        <?php foreach($context->items as $item){?>
+        <div class="swiper-slide"><?=$item?></div>
+        <?php }?>
     </div>
 
     <?php if($context->pagination){?>
