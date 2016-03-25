@@ -1,5 +1,6 @@
 # yii2-swiper
 The swiper slider widget for the Yii framework.
+
 See more here: http://idangero.us/swiper
 ## Installation
 
