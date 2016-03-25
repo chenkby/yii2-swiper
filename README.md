@@ -18,6 +18,7 @@ or add
 
 to the `require` section of your `composer.json` file.
 ## Usage
+```php
 echo \chenkby\swiper\Swiper::widget([
     'items'=>[
         Html::img('http://p2.wmpic.me/article/2016/03/07/1457340934_IhOzsopM.jpg'),
@@ -28,3 +29,4 @@ echo \chenkby\swiper\Swiper::widget([
         'loop'=>true,
     ]
 ]);
+```
