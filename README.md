@@ -1,2 +1,2 @@
 # yii2-swiper
-The swiper widget for the Yii framework
+The swiper widget for the Yii framework.
