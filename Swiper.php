@@ -78,7 +78,7 @@ class Swiper extends Widget
 
         $this->registerAsset();
 
-        $clientOptions=!empty($this->clientOptions) ? json_encode($this->clientOptions) : '{}';
+        $clientOptions=!empty($this->clientOptions) ? \yii\helpers\JSON::encode($this->clientOptions) : '{}';
         $clientObj='swiper'.ucwords($this->options['id']);
         $js="var {$clientObj}=new Swiper('#{$this->options['id']}',{$clientOptions})";
 
